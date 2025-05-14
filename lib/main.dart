@@ -29,11 +29,11 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Logo
+              
               Image.asset('assets/ccslogo.png', height: 100),
               const SizedBox(height: 16),
 
-              // Welcome Text
+              
               const Text(
                 'Good to see you!',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -42,7 +42,7 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 14, color: Colors.black54)),
               const SizedBox(height: 32),
 
-              // Email Field
+              
               TextField(
                 decoration: InputDecoration(
                   prefixIcon: const Icon(Icons.person),
@@ -56,7 +56,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
 
-              // Password Field
+              
               TextField(
                 obscureText: true,
                 decoration: InputDecoration(
@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 24),
 
-              // Login Button
+              
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
@@ -90,7 +90,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Create Account Link
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
